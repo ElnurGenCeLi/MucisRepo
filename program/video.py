@@ -438,7 +438,7 @@ async def vstream(c: Client, m: Message):
                 elif Q == 360:
                     amaze = LowQualityVideo()
                 try:
-                    await loser.edit("🔄 **Yüklənir. . .**")
+                    await loser.edit("🔄 **Yüklənir...**")
                     await call_py.join_group_call(
                         chat_id,
                         AudioVideoPiped(
