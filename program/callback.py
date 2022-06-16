@@ -107,8 +107,8 @@ async def cbbasic(_, query: CallbackQuery):
 » /vplay => Video oynat.
 » /lyrics => Mahnı sözlərini tap.
 
-» /resume => Musiqi davam et.
-» /skip => Sıra musiqini keçin.
+» /resume => Musiqini davam et.
+» /skip => Sıraya alınmış musiqiyə keçin.
 » /end => Musiqini dayandır.
 » /reload => Admin siyahısı yenilə.
 » /katil => Asistanı qrupa dəvət et.
@@ -117,7 +117,7 @@ async def cbbasic(_, query: CallbackQuery):
 
 » /list => Sonrakı musiqi siyahını öyrən.
 
-Məlumat: Bu əmrlər hərkəs üçündür ☑️
+Məlumat: Bu əmrləri hərkəs istifadə edə bilər ☑️
 
 **""",
         reply_markup=InlineKeyboardMarkup(
@@ -138,8 +138,8 @@ async def cbadmin(_, query: CallbackQuery):
 » /vplay => Video oynat.
 » /lyrics => Mahnı sözlərini tap.
 
-» /resume => Musiqi davam et.
-» /skip => Sıra musiqini keçin.
+» /resume => Musiqini davam et.
+» /skip => Sıraya alınmış musiqiyə keçin.
 » /end => Musiqini dayandır.
 » /reload => Admin siyahısı yenilə.
 » /katil => Asistanı qrupa dəvət et.
@@ -148,7 +148,7 @@ async def cbadmin(_, query: CallbackQuery):
 
 » /list => Sonrakı musiqi siyahını öyrən.
 
-Məlumat: Bu əmrlər hərkəs üçündür ☑️
+Məlumat: Bu əmrləri hərkəs istifadə edə bilər ☑️
 
 **""",
         reply_markup=InlineKeyboardMarkup(
@@ -162,7 +162,7 @@ async def cbsudo(_, query: CallbackQuery):
     await query.edit_message_text(
         f"""📚 **Sahib əmrləri :
 
-Qeyd: Sadəcə bot sahibi istifadə edə bilər!
+Qeyd: Bu əmrləri sadəcə bot sahibi istifadə edə bilər!
 
 » /broadcast => Yayım etmək.
 » /gban => İstifadəçi qadağan etmək.
