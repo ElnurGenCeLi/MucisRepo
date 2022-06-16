@@ -70,12 +70,12 @@ async def start_(client: Client, message: Message):
                 [
                     InlineKeyboardButton(
                         "Məni qrupa əlavə et 🥳",
-                        url=f"https://t.me/Bayramova_Music_Bot?startgroup=true",
+                        url=f"https://t.me/Rahid_Music_Bot?startgroup=true",
                     )
                 ],
                 [
                     InlineKeyboardButton("📚 Əmrlər", callback_data="cbcmds"),
-                    InlineKeyboardButton("😍 Sahibim", url=f"https://t.me/Rahid_2003"),
+                    InlineKeyboardButton("😍 Sahibim", url=f"https://t.me/yalvargelim"),
                 ],
                 [
                     InlineKeyboardButton(
