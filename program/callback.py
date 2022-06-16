@@ -165,7 +165,7 @@ async def cbsudo(_, query: CallbackQuery):
 ɴᴏᴛ : Sadəcə
 ʙᴏᴛ Sahibi istifadə edə bilər!
 
-» /broadcast =>  Yayım etmək.
+» /broadcast => Yayım etmək.
 » /gban => İstifadəçi qadağan etmək.
 » /ungban => İstifadəçi qadağanı qaldırmaq.
 » /info => Bot məlumatlarını öyrən.
