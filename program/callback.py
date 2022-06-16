@@ -99,7 +99,7 @@ async def cbcmds(_, query: CallbackQuery):
 async def cbbasic(_, query: CallbackQuery):
     await query.answer("basic commands")
     await query.edit_message_text(
-        f"""📚 **Əsas əmrlər :
+        f"""📚 **Əsas əmrlər:
 
 » /bul => Musiqi yüklə.
 » /ara => Video yüklə.
@@ -117,7 +117,7 @@ async def cbbasic(_, query: CallbackQuery):
 
 » /list => Sonrakı musiqi siyahını öyrən.
 
-Məlumat : Bu əmrlər hərkəs üçündür ☑️
+Məlumat: Bu əmrlər hərkəs üçündür ☑️
 
 **""",
         reply_markup=InlineKeyboardMarkup(
@@ -130,7 +130,7 @@ Məlumat : Bu əmrlər hərkəs üçündür ☑️
 async def cbadmin(_, query: CallbackQuery):
     await query.answer("admin commands")
     await query.edit_message_text(
-        f"""📚 **Əsas əmrlər :
+        f"""📚 **Əsas əmrlər:
 
 » /bul => Musiqi yüklə.
 » /ara => Video yüklə.
@@ -148,7 +148,7 @@ async def cbadmin(_, query: CallbackQuery):
 
 » /list => Sonrakı musiqi siyahını öyrən.
 
-Məlumat : Bu əmrlər hərkəs üçündür ☑️
+Məlumat: Bu əmrlər hərkəs üçündür ☑️
 
 **""",
         reply_markup=InlineKeyboardMarkup(
@@ -162,7 +162,7 @@ async def cbsudo(_, query: CallbackQuery):
     await query.edit_message_text(
         f"""📚 **Sahib əmrləri :
 
-Qeyd : Sadəcə bot sahibi istifadə edə bilər!
+Qeyd: Sadəcə bot sahibi istifadə edə bilər!
 
 » /broadcast => Yayım etmək.
 » /gban => İstifadəçi qadağan etmək.
