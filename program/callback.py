@@ -162,7 +162,7 @@ async def cbsudo(_, query: CallbackQuery):
     await query.edit_message_text(
         f"""📚 **Sahib əmrləri :
 
-Qeyd: Sadəcə bot sahibi istifadə edə bilər!
+Qeyd : Sadəcə bot sahibi istifadə edə bilər!
 
 » /broadcast => Yayım etmək.
 » /gban => İstifadəçi qadağan etmək.
