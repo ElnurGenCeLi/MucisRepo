@@ -16,64 +16,64 @@
     "success_url": "https://t.me/Rahid_2003",
     "env": {
         "API_ID": {
-            "description": "My.telegram'dan uygulama apı-hash.org/apps",
+            "description": "My.telegram'dan ala bilərsiniz apı-hash.org/apps",
             "required": true
         },
         "API_HASH": {
-            "description": "My.telegram'dan uygulama apı-hash.org/apps",
+            "description": "My.telegram'dan ala bilərsiniz apı-hash.org/apps",
             "required": true
         },
         "BOT_TOKEN": {
-            "description": "Bir bot belirteci @botfather ile alınız",
+            "description": "Bot tokeni yapışdır, yoxdursa @botfather-dan yarada bilərsiniz",
             "required": true
         },
         "BOT_USERNAME": {
-            "description": "Müzik Oynatıcı Bot Kullanıcı İsmi @ olmadan yazınız.",
+            "description": "Musiqi botun istifadəçi adı @ olmadan yazın.",
             "required": true
         },
         "BOT_NAME": {
-            "description": "Müzik Oynatıcı Bot Adınız.",
+            "description": "Musiqi botun adı yazın.",
             "required": true
         },
         "ASSISTANT_NAME": {
-            "description": "Assistan kullanıcı adı @ olmadan yazınız.",
+            "description": "Asistanın istifadəçi adı @ olmadan yazın.",
             "required": true
         },
         "SESSION_NAME": {
-            "description": "Pyrogram oturum dizesi (Replit.com)",
+            "description": "String session'u yapışdır (Replit.com)",
             "required": true
         },
         "MONGODB_URL": {
-            "description": "Mongodb url si mongodb.com sitesinden alabilirsiniz.",
+            "description": "Mongodb url si mongodb.com saytdan əldə edə bilərsiniz.",
             "required": true
         },
         "SUDO_USERS": {
-            "description": "sudo üye listesine eklenecek kullanıcı kimliği listesi veya sadece id doldurun",
+            "description": "Öz id'ni yazın",
             "required": true,
             "value": "571698989"
         },
         "UPSTREAM_REPO": {
-            "description": "Bu, güncelleme özelliği için gereklidir, eğer çatallı repo dağıttıysanız, olduğu gibi bırakmazsanız, çatallı repo bağlantınızı buraya koyun",
+            "description": "Bu, yeniləmə funksiyası üçün tələb olunur, əgər çəngəlli repo yerləşdirmisinizsə, onu olduğu kimi qoymayın, çəngəlli repo linkini bura qoyun, yada istəsəniz buna dəyməyin qalsın",
             "required": true,
             "value": "https://github.com/Rahid_2003/RahidMusicRepo"
         },
         "GROUP_SUPPORT": {
-            "description": "Grup kullanıcı adı @ olmadan yazınız.",
+            "description": "Qrup istifadəçi adı @ olmadan yazın.",
             "required": true,
             "value": "Dark_Region"
         },
         "UPDATES_CHANNEL": {
-            "description": "Kanal kullanıcı adı @ olmadan yazınız.",
+            "description": "Kanal istifadəçi adı @ olmadan yazın.",
             "required": true,
             "value": "Rahid_44"
         },
         "OWNER_NAME": {
-            "description": "Kendi kullanıcı adınız @ olmadan yazınız",
+            "description": "Öz istifadəçi adını @ olmadan yazın",
             "required": true,
             "value": "Rahid_2003"
         },
         "ALIVE_NAME": {
-            "description": "telgraf hesabınızın takma adı/adıyla doldurun",
+            "description": "Öz adını yaz",
             "required": true,
             "value": "Rahid"
         }
